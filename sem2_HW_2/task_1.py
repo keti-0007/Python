@@ -15,5 +15,5 @@ while zero + one < number_coins:
         zero += 1
     else:
         one += 1
-print(f"Переверните {zero} монет/ы"if zero <
-      one else f"Переверните {one} монет/ы")
+print(f"Переверните {zero} монет/ы" if zero < one 
+      else f"Переверните {one} монет/ы")

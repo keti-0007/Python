@@ -17,5 +17,5 @@ st1 = set(lst1)
 st2 = set(lst2)
 print(lst1)
 print(lst2)
-print (f'Число/а, которые встречаются в обоих мнжествах: {st1.intersection(st2)}') # или {st1&st2}
+print (f'Число/а, которые встречаются в обоих множествах: {st1.intersection(st2)}') # или {st1&st2}
 

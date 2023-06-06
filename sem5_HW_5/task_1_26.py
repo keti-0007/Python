@@ -5,14 +5,15 @@
 # A = 2; B = 3 -> 8
 
 def main():
-    
+
     print(Degree(int(input("Введите число а: ")),
-                       int(input("Введите число b: "))))
+                 int(input("Введите число b: "))))
 
 
-def Degree(a , b):
-    if b==0 : return 1
-    return a * Degree ( a, b-1)
+def Degree(a, b):
+    if b == 0:
+        return 1
+    return a * Degree(a, b-1)
+
 
 main()
-

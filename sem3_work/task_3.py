@@ -27,7 +27,3 @@ for i in dictionary:
 print(values)
 
 
-
-
-
-

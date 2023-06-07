@@ -21,9 +21,7 @@ def des (n, res = '') :
   if n != 0 :
     res += des (n // 2, res) + str (n % 2)
   return res
-  
-# main ()
- 
+
 n = int (input ('Введите десятичное число: '))
  
 result = des (n)

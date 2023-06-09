@@ -8,7 +8,7 @@
 
 import random
 
-n = int(input('Введите произвольную длину массива: '))
+n = int(input('Введите длину массива: '))
 list1 = []
 result = []
 for i in range(n):
@@ -23,5 +23,4 @@ for i in range(n):
     if min <= list1[i] <= max:
         result.append(i)
 
-print(
-    f'Индексы чисел массива из выбранного диапазона от {min} до {max} : {result}')
+print(f'Индексы чисел массива из выбранного диапазона от {min} до {max} : {result}')
